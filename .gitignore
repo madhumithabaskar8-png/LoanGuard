@@ -1,0 +1,30 @@
+
+# Virtual environments
+loanguard_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE settings
+.vscode/
+
+# Environment variables
+.env
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Unnecessary model files
+models/loanguard_model_original_backup.pkl
+models/random_forest.pkl
+models/logistic_regression.pkl
